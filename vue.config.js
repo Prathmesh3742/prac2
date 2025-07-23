@@ -1,5 +1,6 @@
-const { defineConfig } = require('@vue/cli-service')
+const { defineConfig } = require('@vue/cli-service');
 
-module.exports = {
-  publicPath: 'https://github.com/Prathmesh3742/prac2'
-}
+module.exports = defineConfig({
+  // Remove the transpileDependencies if you're not customizing it
+  publicPath: '/prac2/',  // Replace with your actual GitHub repository name
+});
